@@ -29,6 +29,9 @@ export function QuizSetup({ onStart }: Props) {
             </Button>
           ))}
         </div>
+        <p className="text-xs text-muted-foreground/70 text-center max-w-xs">
+          AI가 출제하는 퀴즈로, 간혹 정답이 부정확할 수 있습니다.
+        </p>
       </div>
     );
   }
